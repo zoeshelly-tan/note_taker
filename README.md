@@ -9,11 +9,11 @@
 * [Contact](#Contact)
 * [License](#License)
 ## Project Links
-[Github Repo](https://github.com/zoeshelly-tan/note_taker)
-[Heroku link](https://techblogzoeshelly.herokuapp.com/)
+* [Github Repo](https://github.com/zoeshelly-tan/note_taker)
+* [Heroku link](https://cryptic-gorge-87999.herokuapp.com/)
 
 ## Project Objective
-The project is design to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku..
+The project is design to create an application called Note Taker that can be used to write and save notes.
 
 ## Installation
 - Node.js 
@@ -22,8 +22,10 @@ The project is design to build a CMS-style blog site similar to a Wordpress site
 ## Technologies
 -      Node.js
 -      Javascript
--      handlebar
+-      Heroku
 -      mySQL
+-      Json
+-      API
 
 
 
