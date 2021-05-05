@@ -18,13 +18,17 @@ module.exports = (app) => {
     })
   });
 
-  app.post('/api/note', (req, res) => {
+  app.post('/api/notes', (req, res) => {
     fs.readFile('./db/db.json',"utf8",(err,content) =>{
       if(err) throw err;
       let arraynote = JSON.parse(content);
       arraynote.push(req.body);
-      dataTo
+      fs.writeFile('./db/db.json', JSON.stringify(arraynote), function (err) {
+        if (err) throw err;
+        
+        console.log('Saved!');
+      });
     })
-   res.json({ NoteData });
+   res.json({ });
   });
 };
